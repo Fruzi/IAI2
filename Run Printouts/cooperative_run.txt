@@ -1,0 +1,49 @@
+Insert graph file path:
+C:\Users\Uzi\Downloads\Example.txt
+
+Enter cutoff depth: 13
+Enter game type: c
+Starting vertex id for agent 0: 0
+Starting vertex id for agent 1: 1
+STARTING SIMULATION
+--------------------
+--------------------
+Current time-step: 0
+There are 6 people remaining
+0v0= 2:e0w4, 3:e1w1
+1v0= 3:e2w2
+2v2= 0:e0w4
+3v2= 0:e1w1, 1:e2w2, 4:e3w2, 5:e4w3
+4v1= 3:e3w2
+5v1= 3:e4w3
+Agent 0 is at node 0
+Agent 1 is at node 1
+People saved vector: [0, 0]
+--------------------
+Current time-step: 2
+There are 4 people remaining
+0v0= 2:e0w4, 3:e1w1
+1v0= 3:e2w2
+2v2= 0:e0w4
+3v2= 0:e1w1, 1:e2w2, 4:e3w2, 5:e4w3
+4v1= 3:e3w2
+5v1= 3:e4w3
+Agent 0 is at edge 0-2 with 2 steps left
+Agent 1 is at node 3
+People saved vector: [0, 2]
+--------------------
+Current time-step: 4
+There are 1 people remaining
+0v0= 2:e0w4, 3:e1w1
+1v0= 3:e2w2
+2v2= 0:e0w4
+3v2= 0:e1w1, 1:e2w2, 4:e3w2, 5:e4w3
+4v1= 3:e3w2
+5v1= 3:e4w3
+Agent 0 is at node 2
+Agent 1 is at node 4
+People saved vector: [2, 3]
+--------------------
+END OF RUN
+
+Process finished with exit code 0
